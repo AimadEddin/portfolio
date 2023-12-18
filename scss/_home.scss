@@ -13,7 +13,7 @@
 	}
 	.about_img {
 		position: relative;
-		right: 250px;
+	
 		@media (max-width: 1480px) {
 			right: 0;
 			img {
@@ -25,6 +25,10 @@
 			display: none;
 		}
 	}
+}
+.about_area .about_img {
+    position: relative;
+    /* right: 250px; */
 }
 /* End About Us Area css
 ============================================================================================ */
